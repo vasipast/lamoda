@@ -1,0 +1,31 @@
+.sortingButton,
+.sortingByCheapButton {
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  color: #0f1111;
+  cursor: pointer;
+  font-size: 1em;
+  padding: 0 1em;
+  height: 3em;
+  width: max-content;
+  transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sortingButton:hover,
+.sortingByCheapButton:hover {
+  background-color: #f0f7f7;
+  border-color: #008296;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.sortingByCheapButton {
+  border-color: #008296;
+}
+
+@media (max-width: 680px) {
+  .sortingButton,
+  .sortingByCheapButton {
+    font-size: 0.85em;
+  }
+}
